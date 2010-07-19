@@ -30,3 +30,10 @@ rapidsms-core-dev also contains submodules of its own, so init and update those 
     $ cd myproj/submodule/rapidsms
     $ git submodule init
     $ git submodule update
+
+Now just syncdb and start the server::
+    
+    $ ./manage.py syncdb
+    $ ./manage.py runserver
+
+Visit http://localhost:8000/ in your browser.
