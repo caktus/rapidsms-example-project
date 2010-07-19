@@ -15,7 +15,7 @@ Clone and rename project::
 
     ~$ git clone git://github.com/caktus/rapidsms-example-project.git rapidsms-project
     ~$ cd rapidsms-project
-    ~/rapidsms-project$ rm -rf ./.git*
+    ~/rapidsms-project$ rm -rf ./.git
     ~/rapidsms-project$ mv example_project/ myproj
     ~/rapidsms-project$ git init
     ~/rapidsms-project$ git add --all
