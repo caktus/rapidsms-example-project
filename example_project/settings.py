@@ -9,8 +9,15 @@ from rapidsms.djangoproject.settings import *
 
 # then add your django settings:
 
+DEBUG = True
+
 DATABASE_ENGINE = "sqlite3"
 DATABASE_NAME = "db.sqlite3"
 
 INSTALLED_APPS = (
-    "rapidsms")
+    "rapidsms",
+)
+
+TABS = [
+    ('rapidsms.views.dashboard', 'Dashboard'),
+]
