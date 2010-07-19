@@ -17,6 +17,7 @@ Clone and rename project::
     ~$ cd rapidsms-project
     ~/rapidsms-project$ rm -rf ./.git*
     ~/rapidsms-project$ mv example_project/ myproj
+    ~/rapidsms-project$ git init
     ~/rapidsms-project$ git add --all
     ~/rapidsms-project$ git commit -m "initial project layout"
 
@@ -32,7 +33,7 @@ rapidsms-core-dev also contains submodules of its own, so init and update those 
     ~/rapidsms-project/myproj/submodule/rapidsms$ git submodule update
 
 Now just syncdb and start the server::
-    
+
     ~/rapidsms-project$ ./manage.py syncdb
     ~/rapidsms-project$ ./manage.py runserver
 
